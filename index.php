@@ -18,8 +18,8 @@
   ?>
   <div class="container mt-5">
     <div class="card-header bg-dark text-white d-flex justify-content-between">
-      <h3>HOME</h4>
-       <a href="form.php" class="btn btn-success">ADD</a>
+      <h3>Hub</h4>
+       <a href="form.php" class="btn btn-danger">Add</a>
     </div>
     <div class="card-body">
       <div class="table-responsive">
@@ -49,8 +49,8 @@
                 <td><?php echo $Result['Comment']; ?></td>
                 <td><?php echo $Result['Link']; ?></td>
                 <td>
-                  <a class="btn btn-success" href="edit.php?ID=<?php echo $Result['ID']; ?>">EDIT</a>
-                  <a class="btn btn-danger" href="delete.php?ID=<?php echo $Result['ID']; ?>">DELETE</a>
+                  <a class="btn btn-success" href="edit.php?ID=<?php echo $Result['ID']; ?>">Edit</a>
+                  <a class="btn btn-dark" href="delete.php?ID=<?php echo $Result['ID']; ?>">Delete</a>
                 </td>
               </tr>
             <?php
