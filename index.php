@@ -10,11 +10,11 @@
 <body>
   <?php
   $conn = mysqli_init();
-  mysqli_real_connect($conn, 'apirat.mysql.database.azure.com', 'it63070185@apirat', 'UEKyfj18', 'ITFlab', 3306);
+  mysqli_real_connect($conn, 'itflab0263070036.mysql.database.azure.com', 'Chinnatad@itflab0263070036', 'HIVlyv86', 'itflab', 3306);
   if (mysqli_connect_errno($conn)) {
     die('Failed to connect to MySQL: ' . mysqli_connect_error());
   }
-  $res = mysqli_query($conn, 'SELECT * FROM guestboook');
+  $res = mysqli_query($conn, 'SELECT * FROM guestbook');
   ?>
   <div class="container mt-5">
     <div class="card-header bg-primary text-white d-flex justify-content-between">
