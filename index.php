@@ -60,7 +60,7 @@
           </div>
        </div>
       </table>
-    <a href="form.php" class="btn btn-danger">Add</a>
+    <a href="form.php" class="btn btn-warning">Add</a>
 
 
   <?php
