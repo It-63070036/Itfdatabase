@@ -25,7 +25,7 @@
       <div class="container">
           <div class="card-header bg-dark text-white d-flex justify-content-between">
            <h3>EDIT</h3>
-           <a href="index.php" class="btn btn-danger">BACK</a>
+           <a href="index.php" class="btn btn-danger">Back</a>
           </div>
           <form action="update.php" method="post" id="CommentForm">
               <div class="form-group mt-5">
