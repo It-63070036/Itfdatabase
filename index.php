@@ -19,7 +19,7 @@
   <div class="container mt-5">
     <div class="card-header bg-dark text-white d-flex justify-content-between">
       <h3>Hub</h4>
-       <a href="form.php" class="btn btn-danger">Add</a>
+       
     </div>
     <div class="card-body">
       <div class="table-responsive">
@@ -60,6 +60,7 @@
           </div>
        </div>
       </table>
+    <a href="form.php" class="btn btn-danger">Add</a>
 
 
   <?php
